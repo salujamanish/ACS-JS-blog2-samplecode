@@ -22,7 +22,8 @@ This repo focus on creating simple chat client using Azure javascript SDKs.
 1. Open an instance of PowerShell, Windows Terminal, Command Prompt or equivalent and navigate to the directory that you'd like to clone the sample to.
 2. `git clone https://github.com/salujamanish/ACS-JS-blog2-samplecode.git`
 3. Get the `Connection String` from the Azure portal. For more information on connection strings, see [Create an Azure Communication Resources](https://docs.microsoft.com/en-us/azure/communication-services/quickstarts/create-communication-resource)
-4. Once you get the `Connection String`, Set the environment variable with name `COMMUNICATION_SERVICES_CONNECTION_STRING`.
+4. Once you get the `Connection String`, Set the environment variable with name `COMMUNICATION_SERVICES_CONNECTION_STRING`  and `ACS_ENDPOINT_URL`.
+   
 
 ## Local run
 1. Open instance of PowerShell, Windows Terminal, Command Prompt or equivalent  and go to the user-mgt folder, run the command `npm install`.

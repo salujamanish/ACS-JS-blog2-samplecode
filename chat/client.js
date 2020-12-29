@@ -2,7 +2,7 @@ import { ChatClient } from '@azure/communication-chat';
 import { AzureCommunicationUserCredential } from '@azure/communication-common';
 
 // Your unique Azure Communication service endpoint
-let endpointUrl = 'https://acssamplems.communication.azure.com';
+let endpointUrl = process.env['ACS_ENDPOINT_URL'];
 let userAccessToken = process.env['USER_ACCESS_TOKEN'];
 
 let chatClient = new ChatClient(endpointUrl, new AzureCommunicationUserCredential(userAccessToken));
