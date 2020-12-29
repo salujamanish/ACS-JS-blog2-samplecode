@@ -1,0 +1,34 @@
+{
+    "$schema": "http://schema.management.azure.com/schemas/2019-04-01/deploymentTemplate.json#",
+    "contentVersion": "1.0.0.0",
+    "parameters": {
+        "location": {
+            "type": "String"
+        },
+        "name": {
+            "type": "String"
+        },
+        "properties": {
+            "type": "Object",
+            "metadata": {
+                "description": "The map of key-value pairs used to dump properties onto the Communication Services resource"
+            }
+        },
+        "resourceTags": {
+            "type": "Object",
+            "metadata": {
+                "description": "The map of key-value pairs used to tag the Communication Services resource"
+            }
+        }
+    },
+    "resources": [
+        {
+            "type": "Microsoft.Communication/CommunicationServices",
+            "apiVersion": "2020-08-20-preview",
+            "name": "[parameters('name')]",
+            "location": "[parameters('location')]",
+            "tags": "[parameters('resourceTags')]",
+            "properties": "[parameters('properties')]"
+        }
+    ]
+}
