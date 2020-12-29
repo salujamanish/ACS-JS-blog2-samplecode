@@ -3,6 +3,9 @@
 [![Deploy to Azure](https://aka.ms/deploytoazurebutton)](https://portal.azure.com/#create/Microsoft.Template/uri/https%3A%2F%2Fraw.githubusercontent.com%2Fsalujamanish%2FACS-JS-blog2-samplecode%2Fmain%2Fdeploy%2Fazuredeploy.json)
 
 ## Introduction
+Most of the enterprise need to build interactive chat, voice and video solution for web, desktop, or mobile applications. In other way we can say we need to have programmable Chat. Let’s take a scenario where we have an existing web application in which one user want to start a chat thread with another user/group.
+
+This repo focus on creating simple chat client using Azure javascript SDKs.
 
 ## Prerequisites
 - Create an Azure account with an active subscription. For details, see [Create an account for free](https://azure.microsoft.com/free/?WT.mc_id=A261C142F).
@@ -33,3 +36,4 @@
 ## Additional Reading
 
 - [Azure Communication Chat SDK](https://docs.microsoft.com/en-us/azure/communication-services/concepts/chat/sdk-features) - To learn more about the chat web sdk.
+- [Fully Managed Communication Platform- Azure Communication Service ](https://manishsaluja.medium.com/fully-managed-communication-platform-azure-communication-service-2ff3ab4b314f) - To learn more about ACS and how to deploy the communication resource on Azure Portal.
