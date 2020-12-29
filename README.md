@@ -29,7 +29,7 @@ This repo focus on creating simple chat client using Azure javascript SDKs.
 2. Execute following node command from user-mgt folder to run the code `node ./user-mgt.js` run this command twice to create two different users. This shall return userId and Access Token. Save these values for further steps.
 3. Set the environment variables `USER1_ID`, `USER2_ID`, `USER_ACCESS_TOKEN` with value received in previous step. Also set the environment variables ` USER1_DISPLAY_NAME` and ` USER2_DISPLAY_NAME` values with any display name of members of the chat.
 4. Switch the path from user-mgt to chat folder, run the command `npm install`.
-5.Execute following command from chat folder to run the code `npx webpack-dev-server --entry ./client.js --output bundle.js --debug --devtool inline-source-map`.
+5. Execute following command from chat folder to run the code `npx webpack-dev-server --entry ./client.js --output bundle.js --debug --devtool inline-source-map`.
 6. Open your browser and navigate to http://localhost:8080/. In the developer tools console within your browser you should see following:
    ![chat](./images/chat.png)
 
